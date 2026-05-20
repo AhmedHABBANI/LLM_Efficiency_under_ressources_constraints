@@ -1,0 +1,10 @@
+{
+    "model": "Qwen/Qwen2.5-0.5B",
+    "compression": "unstructured_pruning_20%",
+    "prompt": "Artificial intelligence is",
+    "max_new_tokens": 100,
+    "latency_seconds": 2.900757312774658,
+    "tokens_per_second": 34.47375606349747,
+    "vram_gb": 0.931910514831543,
+    "generated_text": "Artificial intelligence is a rapidly growing field with many potential applications. However, it is also a complex and challenging field that requires careful planning and execution. In this article, we will explore the basics of artificial intelligence and its potential applications.\nWhat is Artificial Intelligence?\nArtificial intelligence is a form of intelligence that is created by machines. It is a subset of computer science that involves the development of algorithms that can mimic human intelligence. AI is used in a variety of fields, including healthcare, finance, transportation, and more.\n"
+}

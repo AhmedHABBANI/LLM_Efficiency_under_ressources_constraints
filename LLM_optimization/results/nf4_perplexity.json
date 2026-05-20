@@ -1,0 +1,26 @@
+{
+  "model": "Qwen2.5-0.5B-NF4-double-quant",
+  "base_model": "Qwen/Qwen2.5-0.5B",
+  "precision": "NF4",
+  "compression": "bitsandbytes_4bit_nf4_double_quant",
+  "perplexity_eval": {
+    "dataset": "wikitext",
+    "dataset_config": "wikitext-2-raw-v1",
+    "split": "test",
+    "value": 18.7531,
+    "method": "hf_sliding_window",
+    "context_length": 512,
+    "stride": 256,
+    "max_tokens": 8192
+  },
+  "hardware": {
+    "device": "cuda",
+    "gpu_name": "NVIDIA GeForce RTX 4050 Laptop GPU"
+  },
+  "quantization_config": {
+    "load_in_4bit": true,
+    "bnb_4bit_quant_type": "nf4",
+    "bnb_4bit_use_double_quant": true,
+    "bnb_4bit_compute_dtype": "float16"
+  }
+}

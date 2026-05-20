@@ -1,0 +1,24 @@
+{
+  "model": "Qwen2.5-0.5B-Instruct-GGUF-Q4_K_M",
+  "base_model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "precision": "GGUF-Q4_K_M",
+  "compression": "static_gguf_q4_k_m",
+  "generation_eval": {
+    "prompt": "Artificial intelligence is",
+    "max_new_tokens": 100,
+    "tokens_per_sec": 180.08,
+    "latency_ms": 3217.96,
+    "ollama_eval_count": 100,
+    "ollama_eval_duration_ns": 555319800
+  },
+  "efficiency": {
+    "ram_system_gb": 12.35,
+    "vram_gb_nvidia_smi": 0.83
+  },
+  "backend": {
+    "runtime": "ollama",
+    "format": "GGUF",
+    "quantization": "Q4_K_M"
+  },
+  "generated_text_preview": "AI, or artificial intelligence, refers to the simulation of human intelligence in machines that are programmed to think and act like humans. It involves developing algorithms and machine learning techniques to enable computers and other devices to perform tasks that would typically require human intelligence.\n\nSome key aspects of AI include:\n\n1. **Machine Learning**: The ability of a machine to learn from data without being explicitly programmed.\n2. **Deep Learning**: A subset of machine learnin"
+}

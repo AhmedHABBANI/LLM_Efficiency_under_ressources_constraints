@@ -1,0 +1,28 @@
+{
+  "model": "Qwen2.5-0.5B-NF4-double-quant",
+  "base_model": "Qwen/Qwen2.5-0.5B",
+  "precision": "NF4",
+  "compression": "bitsandbytes_4bit_nf4_double_quant",
+  "generation_eval": {
+    "prompt": "Artificial intelligence is",
+    "max_new_tokens": 100,
+    "generated_tokens": 100,
+    "tokens_per_sec": 12.04,
+    "latency_ms": 8302.52
+  },
+  "efficiency": {
+    "ram_system_gb": 1.29,
+    "vram_gb": 0.45
+  },
+  "hardware": {
+    "device": "cuda",
+    "gpu_name": "NVIDIA GeForce RTX 4050 Laptop GPU"
+  },
+  "quantization_config": {
+    "load_in_4bit": true,
+    "bnb_4bit_quant_type": "nf4",
+    "bnb_4bit_use_double_quant": true,
+    "bnb_4bit_compute_dtype": "float16"
+  },
+  "generated_text_preview": "Artificial intelligence is a new technology that has been developed by scientists and engineers. It is a type of technology that uses computers to perform tasks that would normally be done by humans. It is used in many different areas, including in the field of medicine, where it can help doctors to diagnose and treat diseases more accurately and quickly.\nOne of the most important applications of artificial intelligence is in the field of healthcare. It can help doctors to diagnose and treat dis"
+}

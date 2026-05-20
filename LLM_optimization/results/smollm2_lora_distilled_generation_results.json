@@ -1,0 +1,13 @@
+{
+    "model": "HuggingFaceTB/SmolLM2-135M",
+    "adapter": "models/smollm2_lora_distilled_from_qwen",
+    "compression": "lora_distillation",
+    "trainable_params": 460800,
+    "trainable_percentage": 0.3414,
+    "prompt": "Artificial intelligence is",
+    "max_new_tokens": 100,
+    "latency_seconds": 4.037409543991089,
+    "tokens_per_second": 24.768356766984628,
+    "vram_gb": 0.2636227607727051,
+    "generated_text": "Artificial intelligence is a branch of artificial intelligence that uses machine learning algorithms to improve the performance and efficiency of machines. It involves training them with data, then using this information to make predictions or decisions based on what they have learned from it.\nOne popular type of AI used in robotics is called deep learning. This technique involves feeding large amounts of labeled data into an algorithm, which tries to learn patterns within those datasets by analyzing their features. Over time, these models become better at making accurate predictions about new inputs.\n"
+}

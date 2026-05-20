@@ -1,0 +1,11 @@
+{
+    "model": "HuggingFaceTB/SmolLM2-135M",
+    "adapter": "models/smollm2_lora_distilled_from_qwen",
+    "compression": "lora_distillation",
+    "dataset": "wikitext-2-raw-v1 test",
+    "max_length": 512,
+    "stride": 256,
+    "trainable_params": 460800,
+    "trainable_percentage": 0.3414,
+    "perplexity": 16.69342803955078
+}

@@ -1,0 +1,8 @@
+{
+    "model": "Qwen/Qwen2.5-0.5B",
+    "compression": "unstructured_pruning_40%",
+    "dataset": "wikitext-2-raw-v1 test",
+    "max_length": 512,
+    "stride": 256,
+    "perplexity": 95.43810272216797
+}

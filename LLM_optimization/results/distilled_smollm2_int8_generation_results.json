@@ -1,0 +1,10 @@
+{
+    "model": "models/smollm2_distilled_from_qwen",
+    "compression": "distillation_plus_int8",
+    "prompt": "Artificial intelligence is",
+    "max_new_tokens": 100,
+    "latency_seconds": 9.525089740753174,
+    "tokens_per_second": 10.498588750523702,
+    "vram_gb": 0.21847200393676758,
+    "generated_text": "Artificial intelligence is a field of computer science that aims to understand the meaning of data. It involves developing algorithms and models that can analyze, interpret, and generate large amounts of text, speech, or other forms of human-encoded information.\nThere are many different types of AI applications, including:\n- Natural language processing\n- Robotics and automation\n- Image recognition\n- Speech recognition\n- Virtual assistants\n- and much more!\nSo what do you need to get started with AI? The first step is"
+}

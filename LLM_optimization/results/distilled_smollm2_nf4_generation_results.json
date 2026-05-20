@@ -1,0 +1,10 @@
+{
+    "model": "models/smollm2_distilled_from_qwen",
+    "compression": "distillation_plus_nf4",
+    "prompt": "Artificial intelligence is",
+    "max_new_tokens": 100,
+    "latency_seconds": 5.347193241119385,
+    "tokens_per_second": 18.701400059943587,
+    "vram_gb": 0.1705026626586914,
+    "generated_text": "Artificial intelligence is a field that aims to understand the human mind and make machines that can think. This means improving their ability to recognize, interpret, and learn from data.\nThere are many different types of AI projects, but we’ll focus on two main ones: machine learning (ML) and deep learning (DL). ML involves training algorithms using data, while DL uses them to create smarter machines. Both these techniques help us build powerful tools for tasks like speech recognition, text-to-speech, information retrieval"
+}

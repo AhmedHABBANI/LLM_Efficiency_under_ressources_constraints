@@ -1,0 +1,9 @@
+transformers
+datasets
+accelerate
+bitsandbytes
+sentencepiece
+pandas
+matplotlib
+psutil
+tqdm

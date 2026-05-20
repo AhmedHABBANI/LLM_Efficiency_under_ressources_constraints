@@ -1,0 +1,11 @@
+{
+    "model": "Qwen/Qwen2.5-0.5B",
+    "compression": "structured_pruning_20%",
+    "pruning_type": "ln_structured_l1_dim0",
+    "prompt": "Artificial intelligence is",
+    "max_new_tokens": 100,
+    "latency_seconds": 2.7398388385772705,
+    "tokens_per_second": 36.49849713493641,
+    "vram_gb": 0.932093620300293,
+    "generated_text": "Artificial intelligence is')}}')}}')}}')}}')}}')}}')}}')}}')}}')}}')}}')}}')}}')}}')}}')}}')}}')}}')}}')}}')}}')}}')}}')}}')}}')}}')}}')}}')}}')}}')}}')}}')}}')}}')}}')}}')}}')}}')}}')}}')}}')}}')}}')}}')}}')}}')}}')}}')}}')}}')}}')}}')}}')}}')}}')}}')}}')}}')}}')}}')}}.SingleOrDefault.FindAsync.FindAsync.FindAsync.FindAsync.FindAsync.FindAsync.FindAsync.FindAsync.FindAsync.FindAsync.FindAsync.FindAsync.FindAsync.FindAsync.FindAsync.FindAsync.FindAsync.FindAsync.FindAsync.FindAsync.FindAsync.FindAsync.FindAsync.FindAsync.FindAsync.FindAsync.FindAsync.FindAsync.FindAsync.FindAsync.FindAsync.FindAsync.FindAsync.FindAsync.FindAsync.FindAsync.FindAsync.FindAsync"
+}

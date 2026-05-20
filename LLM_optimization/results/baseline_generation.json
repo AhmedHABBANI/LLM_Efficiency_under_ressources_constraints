@@ -1,0 +1,22 @@
+{
+  "model": "Qwen2.5-0.5B-FP16-baseline",
+  "base_model": "Qwen/Qwen2.5-0.5B",
+  "precision": "FP16",
+  "compression": "none",
+  "generation_eval": {
+    "prompt": "Artificial intelligence is",
+    "max_new_tokens": 100,
+    "generated_tokens": 100,
+    "tokens_per_sec": 31.91,
+    "latency_ms": 3133.61
+  },
+  "efficiency": {
+    "ram_system_gb": 1.48,
+    "vram_gb": 0.94
+  },
+  "hardware": {
+    "device": "cuda",
+    "gpu_name": "NVIDIA GeForce RTX 4050 Laptop GPU"
+  },
+  "generated_text_preview": "Artificial intelligence is a field of study that focuses on the development of intelligent machines that can perform tasks that typically require human intelligence. These machines are designed to mimic human cognitive processes and can learn from experience, making them capable of performing tasks that would be difficult or impossible for humans to accomplish. AI has the potential to revolutionize many industries, from healthcare to finance to transportation, and has already been used to improv"
+}

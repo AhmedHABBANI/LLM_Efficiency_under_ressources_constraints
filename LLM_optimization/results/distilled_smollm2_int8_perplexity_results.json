@@ -1,0 +1,8 @@
+{
+    "model": "models/smollm2_distilled_from_qwen",
+    "compression": "distillation_plus_int8",
+    "dataset": "wikitext-2-raw-v1 test",
+    "max_length": 512,
+    "stride": 256,
+    "perplexity": 20.419950485229492
+}
